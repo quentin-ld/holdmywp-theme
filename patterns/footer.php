@@ -32,7 +32,7 @@
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":1093,"width":"32px","height":"auto","scale":"contain","sizeSlug":"thumbnail","linkDestination":"custom","className":"drop-shadow-md"} -->
-<figure class="wp-block-image size-thumbnail is-resized drop-shadow-md"><a href="#"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/holdmywp-logo-2-150x150.png" alt="" class="wp-image-1093" style="object-fit:contain;width:32px;height:auto"/></a></figure>
+<figure class="wp-block-image size-thumbnail is-resized drop-shadow-md"><a href="#"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/holdmywp-logo.png" alt="" class="wp-image-1093" style="object-fit:contain;width:32px;height:auto"/></a></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
