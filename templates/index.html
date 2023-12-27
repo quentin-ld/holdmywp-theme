@@ -1,0 +1,31 @@
+<!-- wp:template-part {"slug":"header","area":"header"} /-->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:yoast-seo/breadcrumbs {"className":"site-breadcrumb"} /-->
+
+<!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Mes dernières publications</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"24px"}}} -->
+<p style="font-size:24px">Des articles pour apprendre, vulgariser et gagner du temps avec WordPress.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:query {"queryId":25,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":{"category":[18,21,20,19]}}} -->
+<div class="wp-block-query"><!-- wp:post-template {"style":{"spacing":{"blockGap":"20px"}}} -->
+<!-- wp:post-title {"level":3,"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"20px","left":"0px"}}}} /-->
+
+<!-- wp:post-excerpt {"moreText":"Lire la publication","excerptLength":30,"style":{"typography":{"fontSize":"0.85rem"},"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}}} /-->
+<!-- /wp:post-template -->
+
+<!-- wp:query-pagination {"paginationArrow":"arrow"} -->
+<!-- wp:query-pagination-previous /-->
+
+<!-- wp:query-pagination-numbers /-->
+
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination --></div>
+<!-- /wp:query --></div>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
