@@ -23,7 +23,7 @@
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"textAlign":"left"} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-text-align-left wp-element-button" href="#">😬 Revenir sur la page d'accueil</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link has-text-align-left wp-element-button" href="https://holdmywp.com/">😬 Revenir sur la page d'accueil</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->

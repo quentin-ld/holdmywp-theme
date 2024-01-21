@@ -538,6 +538,13 @@
 			"core/list-item": {
 				"css": "margin-bottom: 10px"
 			},
+			"core/page-list": {
+				"css": "padding-left: 0;\ncolor: var(--wp--preset--color--custom-accent-1);",
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--medium)",
+					"lineHeight": 1.6000000000000001
+				}
+			},
 			"core/post-content": {
 				"css": ""
 			},
