@@ -4,13 +4,16 @@ Requires at least: 6.0
 Tested up to: 6.3
 Requires PHP: 5.7
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
 
 
 == Changelog ==
+
+= 1.0.1 =
+Add fluid font sizes support
 
 = 1.0.0 =
 * Initial release

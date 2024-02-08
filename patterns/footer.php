@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: footer
- * Slug: Hold my WP/footer
+ * Slug: holdmywp/footer
  * Categories: hidden
  * Inserter: no
  */
@@ -31,12 +31,12 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
-<div class="wp-block-group"><!-- wp:image {"id":1093,"width":"32px","height":"auto","scale":"contain","sizeSlug":"thumbnail","linkDestination":"custom","className":"drop-shadow-md"} -->
-<figure class="wp-block-image size-thumbnail is-resized drop-shadow-md"><a href="https://holdmywp.com/"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/holdmywp-logo.png" alt="" class="wp-image-1093" style="object-fit:contain;width:32px;height:auto"/></a></figure>
+<div class="wp-block-group"><!-- wp:image {"id":1850,"width":"32px","height":"auto","scale":"contain","sizeSlug":"full","linkDestination":"custom","className":"drop-shadow-md"} -->
+<figure class="wp-block-image size-full is-resized drop-shadow-md"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/holdmywp-logo.png" alt="<?php echo esc_attr_e( 'Avatar de Quentin Le Duff en pixel Art, Logo du site Hold my WordPress', 'holdmywp' ); ?>" class="wp-image-1850" style="object-fit:contain;width:32px;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size"><em>Développé par <a href="https://holdmywp.com/" data-type="page" data-id="431">Quentin Le Duff</a> - <em> Propulsé par <a href="https://wordpress.org/" data-type="link" data-id="https://wordpress.org/" target="_blank" rel="noreferrer noopener">WordPress</a> & <a href="https://wordpress.org/gutenberg/" data-type="link" data-id="https://wordpress.org/gutenberg/" target="_blank" rel="noreferrer noopener">Gutenberg</a></em></em></p>
+<p class="has-text-align-center has-small-font-size"><em>Développé par <a href="https://www.linkedin.com/in/quentin-le-duff/" data-type="link" data-id="https://www.linkedin.com/in/quentin-le-duff/" target="_blank" rel="noreferrer noopener">Quentin Le Duff</a> - <em> Propulsé par <a href="https://wordpress.org/" data-type="link" data-id="https://wordpress.org/" target="_blank" rel="noreferrer noopener">WordPress</a> & <a href="https://wordpress.org/gutenberg/" data-type="link" data-id="https://wordpress.org/gutenberg/" target="_blank" rel="noreferrer noopener">Gutenberg</a></em></em></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

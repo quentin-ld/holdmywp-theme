@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: 404
- * Slug: Hold my WP/404
+ * Slug: holdmywp/404
  * Categories: hidden
  * Inserter: no
  */
@@ -10,7 +10,7 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"fontSize":"85px","fontStyle":"normal","fontWeight":"900","lineHeight":"1"},"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}}} -->
-<h1 class="wp-block-heading has-text-align-center" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;font-size:85px;font-style:normal;font-weight:900;line-height:1">404</h1>
+<h1 class="wp-block-heading has-text-align-center" id="h-404" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;font-size:85px;font-style:normal;font-weight:900;line-height:1">404</h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1"}},"textColor":"custom-accent-1"} -->
