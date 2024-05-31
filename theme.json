@@ -1,631 +1,659 @@
 {
-  "settings": {
-    "appearanceTools": true,
-    "blocks": {
-      "core/button": {
-        "appearanceTools": true,
-        "color": {
-          "background": true,
-          "custom": true,
-          "customDuotone": true,
-          "customGradient": true,
-          "defaultDuotone": true,
-          "defaultGradients": true,
-          "defaultPalette": true,
-          "duotone": [],
-          "gradients": [],
-          "palette": [
-            {
-              "color": "#0A0903",
-              "name": "Base 1",
-              "slug": "custom-base-1"
-            },
-            {
-              "color": "#fcf1d3",
-              "name": "Base 2",
-              "slug": "custom-base-2"
-            },
-            {
-              "color": "#a84410",
-              "name": "Accent 1",
-              "slug": "custom-accent-1"
-            },
-            {
-              "color": "#f1892d",
-              "name": "Accent 2",
-              "slug": "custom-accent-2"
-            },
-            {
-              "color": "#ffdcb5",
-              "name": "Accent 3",
-              "slug": "custom-accent-3"
-            },
-            {
-              "color": "#51E5FF",
-              "name": "Accent 4",
-              "slug": "custom-accent-4"
-            }
-          ],
-          "text": true
-        },
-        "layout": {
-          "contentSize": false,
-          "wideSize": false
-        },
-        "spacing": {
-          "customSpacingSize": true,
-          "spacingScale": {
-            "increment": 1.5,
-            "mediumStep": 1.5,
-            "operator": "*",
-            "steps": 7,
-            "unit": "rem"
-          },
-          "spacingSizes": [],
-          "units": ["%", "px", "em", "rem", "vh", "vw"]
-        },
-        "typography": {
-          "dropCap": true,
-          "fontStyle": true,
-          "fontWeight": true,
-          "letterSpacing": true,
-          "textDecoration": true,
-          "textTransform": true
-        },
-        "useRootPaddingAwareAlignments": true
-      },
-      "core/code": {
-        "appearanceTools": true,
-        "color": {
-          "background": true,
-          "custom": true,
-          "customDuotone": true,
-          "customGradient": true,
-          "defaultDuotone": true,
-          "defaultGradients": true,
-          "defaultPalette": true,
-          "duotone": [],
-          "gradients": [],
-          "palette": [
-            {
-              "color": "#0A0903",
-              "name": "Base 1",
-              "slug": "custom-base-1"
-            },
-            {
-              "color": "#fcf1d3",
-              "name": "Base 2",
-              "slug": "custom-base-2"
-            },
-            {
-              "color": "#a84410",
-              "name": "Accent 1",
-              "slug": "custom-accent-1"
-            },
-            {
-              "color": "#f1892d",
-              "name": "Accent 2",
-              "slug": "custom-accent-2"
-            },
-            {
-              "color": "#ffdcb5",
-              "name": "Accent 3",
-              "slug": "custom-accent-3"
-            },
-            {
-              "color": "#51E5FF",
-              "name": "Accent 4",
-              "slug": "custom-accent-4"
-            }
-          ],
-          "text": true
-        },
-        "layout": {
-          "contentSize": false,
-          "wideSize": false
-        },
-        "shadow": {
-          "defaultPresets": true,
-          "presets": []
-        },
-        "spacing": {
-          "customSpacingSize": true,
-          "spacingScale": {
-            "increment": 1.5,
-            "mediumStep": 1.5,
-            "operator": "*",
-            "steps": 7,
-            "unit": "rem"
-          },
-          "spacingSizes": [],
-          "units": ["%", "px", "em", "rem", "vh", "vw"]
-        },
-        "typography": {
-          "dropCap": true,
-          "fontStyle": true,
-          "fontWeight": true,
-          "letterSpacing": true,
-          "textDecoration": true,
-          "textTransform": true
-        },
-        "useRootPaddingAwareAlignments": true
-      },
-      "core/list": {
-        "border": {
-          "color": true,
-          "radius": true,
-          "style": true,
-          "width": true
-        },
-        "color": {
-          "background": true,
-          "button": true,
-          "caption": true,
-          "custom": true,
-          "customDuotone": true,
-          "customGradient": true,
-          "defaultDuotone": true,
-          "defaultGradients": true,
-          "defaultPalette": true,
-          "duotone": [],
-          "gradients": [
-            {
-              "color": "#000",
-              "gradient": "linear-gradient(135deg,rgb(41,51,155) 0%,rgb(196,171,69) 100%)",
-              "name": "Couleur 1",
-              "slug": "custom-couleur-1"
-            }
-          ],
-          "heading": true,
-          "link": true,
-          "palette": [
-            {
-              "color": "#492815",
-              "name": "Base 1",
-              "slug": "custom-base-1"
-            },
-            {
-              "color": "#fcf1d3",
-              "name": "Base 2",
-              "slug": "custom-base-2"
-            },
-            {
-              "color": "#a84410",
-              "name": "Accent 1",
-              "slug": "custom-accent-1"
-            },
-            {
-              "color": "#f1892d",
-              "name": "Accent 2",
-              "slug": "custom-accent-2"
-            },
-            {
-              "color": "#ffdcb5",
-              "name": "Accent 3",
-              "slug": "custom-accent-3"
-            },
-            {
-              "color": "#51E5FF",
-              "name": "Accent 4",
-              "slug": "custom-accent-4"
-            }
-          ],
-          "text": true
-        },
-        "dimensions": {
-          "minHeight": true
-        },
-        "layout": {
-          "contentSize": false,
-          "wideSize": false
-        },
-        "position": {
-          "sticky": true
-        },
-        "shadow": {
-          "defaultPresets": true,
-          "presets": []
-        },
-        "spacing": {
-          "blockGap": true,
-          "customSpacingSize": true,
-          "margin": true,
-          "padding": true,
-          "spacingScale": {
-            "increment": 1.5,
-            "mediumStep": 1.5,
-            "operator": "*",
-            "steps": 7,
-            "unit": "rem"
-          },
-          "spacingSizes": [],
-          "units": ["%", "px", "em", "rem", "vh", "vw"]
-        },
-        "typography": {
-          "customFontSize": true,
-          "dropCap": true,
-          "fontStyle": true,
-          "fontWeight": true,
-          "letterSpacing": true,
-          "lineHeight": true,
-          "textDecoration": true,
-          "textTransform": true
-        },
-        "useRootPaddingAwareAlignments": true
-      }
-    },
-    "color": {
-      "background": true,
-      "custom": true,
-      "customDuotone": true,
-      "customGradient": true,
-      "defaultDuotone": true,
-      "defaultGradients": true,
-      "defaultPalette": true,
-      "duotone": [],
-      "gradients": [
-        {
-          "color": "#000",
-          "gradient": "linear-gradient(135deg,rgb(41,51,155) 0%,rgb(196,171,69) 100%)",
-          "name": "Couleur 1",
-          "slug": "custom-couleur-1"
-        }
-      ],
-      "palette": [
-        {
-          "color": "#492815",
-          "name": "Base 1",
-          "slug": "custom-base-1"
-        },
-        {
-          "color": "#fcf1d3",
-          "name": "Base 2",
-          "slug": "custom-base-2"
-        },
-        {
-          "color": "#a84410",
-          "name": "Accent 1",
-          "slug": "custom-accent-1"
-        },
-        {
-          "color": "#f1892d",
-          "name": "Accent 2",
-          "slug": "custom-accent-2"
-        },
-        {
-          "color": "#ffdcb5",
-          "name": "Accent 3",
-          "slug": "custom-accent-3"
-        },
-        {
-          "color": "#51E5FF",
-          "name": "Accent 4",
-          "slug": "custom-accent-4"
-        }
-      ],
-      "text": true
-    },
-    "layout": {
-      "contentSize": "960px",
-      "wideSize": "1000px"
-    },
-    "spacing": {
-      "customSpacingSize": true,
-      "spacingScale": {
-        "increment": 1.5,
-        "mediumStep": 1.5,
-        "operator": "*",
-        "steps": 7,
-        "unit": "rem"
-      },
-      "spacingSizes": [],
-      "units": ["%", "px", "em", "rem", "vh", "vw"]
-    },
-    "typography": {
-      "dropCap": true,
-      "fluid": true,
-      "fontFamilies": [
-        {
-          "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
-          "name": "System Font",
-          "slug": "system-font"
-        }
-      ],
-      "fontSizes": [
-        {
-          "fluid": {
-            "max": "1rem",
-            "min": "0.8rem"
-          },
-          "name": "Small",
-          "size": "1rem",
-          "slug": "small"
-        },
-        {
-          "fluid": {
-            "max": "1.25rem",
-            "min": "1.15rem"
-          },
-          "name": "Medium",
-          "size": "1.25rem",
-          "slug": "medium"
-        },
-        {
-          "fluid": {
-            "max": "2.25rem",
-            "min": "1.9rem"
-          },
-          "name": "Large",
-          "size": "2.25rem",
-          "slug": "large"
-        },
-        {
-          "fluid": {
-            "max": "2.625rem",
-            "min": "2rem"
-          },
-          "name": "Extra large",
-          "size": "2.625rem",
-          "slug": "x-large"
-        }
-      ],
-      "fontStyle": true,
-      "fontWeight": true,
-      "letterSpacing": true,
-      "textDecoration": true,
-      "textTransform": true
-    },
-    "useRootPaddingAwareAlignments": true
-  },
-  "styles": {
-    "blocks": {
-      "core/button": {
-        "border": {
-          "bottom": {
-            "color": "#f1892d",
-            "style": "solid",
-            "width": "2px"
-          },
-          "color": null,
-          "left": {
-            "color": "#a84410",
-            "style": "solid",
-            "width": "2px"
-          },
-          "radius": "0px",
-          "right": {
-            "color": "#f1892d",
-            "style": "solid",
-            "width": "2px"
-          },
-          "style": null,
-          "top": {
-            "color": "#a84410",
-            "style": "solid",
-            "width": "2px"
-          },
-          "width": null
-        },
-        "color": {
-          "gradient": "linear-gradient(135deg,rgb(168,68,16) 0%,rgb(241,137,45) 100%)",
-          "text": "#ffffff"
-        },
-        "css": "box-shadow: 1px 2px 2px hsl(32deg 100% 85%), 2px 4px 4px hsl(32deg 100% 85%), 3px 6px 6px hsl(32deg 100% 85%);",
-        "spacing": {
-          "padding": {
-            "bottom": "5px",
-            "left": "10px",
-            "right": "10px",
-            "top": "5px"
-          }
-        },
-        "typography": {
-          "fontStyle": "normal",
-          "fontWeight": "700",
-          "lineHeight": "1.2",
-          "textTransform": "uppercase"
-        },
-        "variations": {
-          "outline": {
-            "border": {
-              "bottom": {
-                "color": "#a84410",
-                "style": "solid",
-                "width": "2px"
-              },
-              "left": {
-                "color": "#a84410",
-                "style": "solid",
-                "width": "2px"
-              },
-              "right": {
-                "color": "#a84410",
-                "style": "solid",
-                "width": "2px"
-              },
-              "top": {
-                "color": "#a84410",
-                "style": "solid",
-                "width": "2px"
-              }
-            },
-            "color": {
-              "text": "#a84410"
-            },
-            "css": "box-shadow: none !important;",
-            "spacing": {
-              "padding": {
-                "bottom": "5px",
-                "left": "10px",
-                "right": "10px",
-                "top": "5px"
-              }
-            },
-            "typography": {
-              "fontStyle": "normal",
-              "fontWeight": "700",
-              "lineHeight": "1.2"
-            }
-          }
-        }
-      },
-      "core/code": {
-        "border": {
-          "bottom": {
-            "color": "#0A0903",
-            "style": "solid",
-            "width": "2px"
-          },
-          "color": null,
-          "left": {
-            "color": "#0A0903",
-            "style": "solid",
-            "width": "2px"
-          },
-          "radius": "0px",
-          "right": {
-            "color": "#0A0903",
-            "style": "solid",
-            "width": "2px"
-          },
-          "style": null,
-          "top": {
-            "color": "#0A0903",
-            "style": "solid",
-            "width": "2px"
-          },
-          "width": null
-        },
-        "color": {
-          "background": "var(--wp--preset--color--custom-base-1)",
-          "text": "var(--wp--preset--color--custom-accent-3)"
-        },
-        "spacing": {
-          "padding": {
-            "bottom": "20px",
-            "left": "40px",
-            "right": "40px",
-            "top": "20px"
-          }
-        }
-      },
-      "core/list": {
-        "spacing": {
-          "margin": {
-            "bottom": "20px",
-            "left": "0px",
-            "right": "0px",
-            "top": "20px"
-          },
-          "padding": {
-            "bottom": "0px",
-            "left": "15px",
-            "top": "0px"
-          }
-        }
-      },
-      "core/list-item": {
-        "css": "margin-bottom: 10px"
-      },
-      "core/page-list": {
-        "css": "padding-left: 0;\ncolor: var(--wp--preset--color--custom-accent-1);\nlist-style: none;",
-        "typography": {
-          "fontSize": "var(--wp--preset--font-size--medium)",
-          "lineHeight": 1.6000000000000001
-        }
-      },
-      "core/post-content": {
-        "css": ""
-      },
-      "core/post-template": {
-        "css": ""
-      }
-    },
-    "color": {
-      "background": "var(--wp--preset--color--custom-base-2)",
-      "text": "var(--wp--preset--color--custom-base-1)"
-    },
-    "css": "/*Tools*/\n.relative {\n    position: relative;\n}\n\n.stretched-link-btn a::after,\n.stretched-link::after {\n    position: absolute;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0;\n    z-index: 1;\n    content: \"\";\n}\n\n.shadow-sm {\n    -webkit-box-shadow: 0.5px 1px 1px hsl(32deg 100% 85% / 0.7);\n    box-shadow: 0.5px 1px 1px hsl(32deg 100% 85% / 0.7);\n    -webkit-transition: border ease-in-out 0.2s,\n        -webkit-box-shadow ease-in-out 0.2s;\n    transition: border ease-in-out 0.2s, -webkit-box-shadow ease-in-out 0.2s;\n    -o-transition: box-shadow ease-in-out 0.2s, border ease-in-out 0.2s;\n    transition: box-shadow ease-in-out 0.2s, border ease-in-out 0.2s;\n    transition: box-shadow ease-in-out 0.2s, border ease-in-out 0.2s,\n        -webkit-box-shadow ease-in-out 0.2s;\n}\n\n.shadow-md {\n    -webkit-box-shadow: 1px 2px 2px hsl(32deg 100% 85%),\n        2px 4px 4px hsl(32deg 100% 85%), 3px 6px 6px hsl(32deg 100% 85%);\n    box-shadow: 1px 2px 2px hsl(32deg 100% 85%), 2px 4px 4px hsl(32deg 100% 85%),\n        3px 6px 6px hsl(32deg 100% 85%);\n}\n\n.shadow-lg {\n    -webkit-box-shadow: 1px 2px 2px hsl(32deg 100% 85% / 0.2),\n        2px 4px 4px hsl(32deg 100% 85% / 0.2), 4px 8px 8px hsl(32deg 100% 85% / 0.2),\n        8px 16px 16px hsl(32deg 100% 85% / 0.2),\n        16px 32px 32px hsl(32deg 100% 85% / 0.2);\n    box-shadow: 1px 2px 2px hsl(32deg 100% 85% / 0.2),\n        2px 4px 4px hsl(32deg 100% 85% / 0.2), 4px 8px 8px hsl(32deg 100% 85% / 0.2),\n        8px 16px 16px hsl(32deg 100% 85% / 0.2),\n        16px 32px 32px hsl(32deg 100% 85% / 0.2);\n}\n\n.drop-shadow-sm {\n    -webkit-filter: drop-shadow(0.5px 1px 1px hsl(32deg 100% 85%));\n    filter: drop-shadow(0.5px 1px 1px hsl(32deg 100% 85%));\n}\n\n.drop-shadow-md {\n    -webkit-filter: drop-shadow(1px 2px 3px hsl(32deg 100% 85% / 0.3)) drop-shadow(2px 4px 6px hsl(32deg 100% 85% / 0.3)) drop-shadow(4px 8px 12px hsl(32deg 100% 85% / 0.3));\n    filter: drop-shadow(1px 2px 3px hsl(32deg 100% 85% / 0.3)) drop-shadow(2px 4px 6px hsl(32deg 100% 85% / 0.3)) drop-shadow(4px 8px 12px hsl(32deg 100% 85% / 0.3));\n}\n\n.drop-shadow-lg {\n    -webkit-filter: drop-shadow(1px 2px 3px hsl(32deg 100% 85% / 0.3)) drop-shadow(2px 4px 6px hsl(32deg 100% 85% / 0.3)) drop-shadow(4px 8px 12px hsl(32deg 100% 85% / 0.3)) drop-shadow(8px 16px 16px hsl(32deg 100% 85% / 0.3)) drop-shadow(16px 32px 32px hsl(32deg 100% 85% / 0.3));\n    filter: drop-shadow(1px 2px 3px hsl(32deg 100% 85% / 0.3)) drop-shadow(2px 4px 6px hsl(32deg 100% 85% / 0.3)) drop-shadow(4px 8px 12px hsl(32deg 100% 85% / 0.3)) drop-shadow(8px 16px 16px hsl(32deg 100% 85% / 0.3)) drop-shadow(16px 32px 32px hsl(32deg 100% 85% / 0.3));\n}\n\n.text-right {\n    text-align: right;\n}\n\n@media (min-width: 782px) {\n    .text-right-md {\n        text-align: right;\n    }\n}\n\n.article-index {\n    -webkit-box-ordinal-group: 0;\n    -ms-flex-order: -1;\n    order: -1;\n}\n\n@media (min-width: 782px) {\n    .article-index {\n        -webkit-box-ordinal-group: unset;\n        -ms-flex-order: unset;\n        order: unset;\n    }\n}\n\n/*Header*/\n.logo-block {\n    cursor: pointer;\n}\n\n.logo-block:hover {\n    text-decoration: underline;\n}\n\nheader .custom-logo-link::after {\n    position: absolute;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0;\n    z-index: 1;\n    content: \"\";\n}\n\n@media (min-width: 782px) {\n    header .header-line {\n        -webkit-box-pack: justify !important;\n        -ms-flex-pack: justify !important;\n        justify-content: space-between !important;\n    }\n}\n\n/*Query Block*/\n.wp-block-query:not(main) .wp-block-post-template .wp-block-post {\n    position: relative;\n    padding: 10px 20px;\n    cursor: pointer;\n    border: 1px solid var(--wp--preset--color--custom-accent-3);\n    background-color: #fafafa;\n    -webkit-box-shadow: 0.5px 1px 1px hsl(32deg 100% 85% / 0.7);\n    box-shadow: 0.5px 1px 1px hsl(32deg 100% 85% / 0.7);\n    -webkit-transition: border ease-in-out 0.2s,\n        -webkit-box-shadow ease-in-out 0.2s;\n    transition: border ease-in-out 0.2s, -webkit-box-shadow ease-in-out 0.2s;\n    -o-transition: box-shadow ease-in-out 0.2s, border ease-in-out 0.2s;\n    transition: box-shadow ease-in-out 0.2s, border ease-in-out 0.2s;\n    transition: box-shadow ease-in-out 0.2s, border ease-in-out 0.2s,\n        -webkit-box-shadow ease-in-out 0.2s;\n}\n\n.wp-block-query:not(main) .wp-block-post-template .wp-block-post:hover {\n    border: 1px solid var(--wp--preset--color--custom-accent-3);\n    -webkit-box-shadow: 1px 2px 2px hsl(32deg 100% 85%),\n        2px 4px 4px hsl(32deg 100% 85%), 3px 6px 6px hsl(32deg 100% 85%);\n    box-shadow: 1px 2px 2px hsl(32deg 100% 85%), 2px 4px 4px hsl(32deg 100% 85%),\n        3px 6px 6px hsl(32deg 100% 85%);\n}\n\n.wp-block-query:not(main) .wp-block-post-template .wp-block-post .wp-block-post-excerpt__more-link::after {\n    position: absolute;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0;\n    z-index: 1;\n    content: \"\";\n}\n\n.wp-block-query:not(main) .wp-block-post-template .wp-block-post.format-link {\n    position: relative;\n    border-top-color: var(--wp--preset--color--custom-accent-1);\n    border-top-width: 2px;\n    border-right-color: var(--wp--preset--color--custom-accent-2);\n    border-right-width: 2px;\n    border-bottom-color: var(--wp--preset--color--custom-accent-2);\n    border-bottom-width: 2px;\n    border-left-color: var(--wp--preset--color--custom-accent-1);\n    border-left-width: 2px;\n    padding-top: 30px;\n}\n\n.wp-block-query:not(main) .wp-block-post-template .wp-block-post.format-link::before {\n    content: \"Article externe ↗️\";\n    display: block;\n    position: absolute;\n    top: 0;\n    left: 0;\n    padding: 4px 6px;\n    color: var(--wp--preset--color--custom-base-2);\n    font-size: 0.8rem;\n    background-color: var(--wp--preset--color--custom-accent-1);\n}\n\n/*Buttons*/\n.wp-block-button__link:hover {\n    background: -webkit-gradient(linear,\n            left top,\n            right top,\n            from(rgba(73, 40, 21, 1)),\n            to(rgba(168, 68, 16, 1)));\n    background: -o-linear-gradient(left,\n            rgba(73, 40, 21, 1) 0%,\n            rgba(168, 68, 16, 1) 100%);\n    background: linear-gradient(90deg,\n            rgba(73, 40, 21, 1) 0%,\n            rgba(168, 68, 16, 1) 100%);\n}\n\ninput[type=\"button\"],\ninput[type=\"reset\"],\ninput[type=\"submit\"] {\n    background: -o-linear-gradient(315deg,\n            rgb(168, 68, 16) 0%,\n            rgb(241, 137, 45) 100%);\n    background: linear-gradient(135deg,\n            rgb(168, 68, 16) 0%,\n            rgb(241, 137, 45) 100%);\n    border-radius: 0px;\n    border-top-color: #a84410;\n    border-top-width: 2px;\n    border-top-style: solid;\n    border-right-color: #f1892d;\n    border-right-width: 2px;\n    border-right-style: solid;\n    border-bottom-color: #f1892d;\n    border-bottom-width: 2px;\n    border-bottom-style: solid;\n    border-left-color: #a84410;\n    border-left-width: 2px;\n    border-left-style: solid;\n    color: #ffffff;\n    font-style: normal;\n    font-weight: 700;\n    line-height: 1.2;\n    padding-top: 5px;\n    padding-right: 10px;\n    padding-bottom: 5px;\n    padding-left: 10px;\n    text-transform: uppercase;\n    border-style: solid;\n    padding-top: 5px;\n    padding-right: 10px;\n    padding-bottom: 5px;\n    padding-left: 10px;\n}\n\nbutton:disabled,\ninput[type=\"button\"]:disabled,\ninput[type=\"reset\"]:disabled,\ninput[type=\"submit\"]:disabled {\n    opacity: 0.7;\n}\n\n/*About Cards*/\n\n.about-card {\n    cursor: pointer;\n    -webkit-transition: background-color ease-in-out 0.2s,\n        -webkit-box-shadow ease-in-out 0.2s;\n    transition: background-color ease-in-out 0.2s,\n        -webkit-box-shadow ease-in-out 0.2s;\n    -o-transition: box-shadow ease-in-out 0.2s, background-color ease-in-out 0.2s;\n    transition: box-shadow ease-in-out 0.2s, background-color ease-in-out 0.2s;\n    transition: box-shadow ease-in-out 0.2s, background-color ease-in-out 0.2s,\n        -webkit-box-shadow ease-in-out 0.2s;\n    -webkit-box-shadow: 0.5px 1px 1px hsl(32deg 100% 85% / 0.7);\n    box-shadow: 0.5px 1px 1px hsl(32deg 100% 85% / 0.7);\n    -webkit-transition: background ease-in-out 0.2s,\n        -webkit-box-shadow ease-in-out 0.2s;\n    transition: background ease-in-out 0.2s, -webkit-box-shadow ease-in-out 0.2s;\n    -o-transition: box-shadow ease-in-out 0.2s, background ease-in-out 0.2s;\n    transition: box-shadow ease-in-out 0.2s, background ease-in-out 0.2s;\n    transition: box-shadow ease-in-out 0.2s, background ease-in-out 0.2s,\n        -webkit-box-shadow ease-in-out 0.2s;\n}\n\n.about-card:hover {\n    -webkit-box-shadow: 1px 2px 2px hsl(32deg 100% 85%),\n        2px 4px 4px hsl(32deg 100% 85%), 3px 6px 6px hsl(32deg 100% 85%);\n    box-shadow: 1px 2px 2px hsl(32deg 100% 85%), 2px 4px 4px hsl(32deg 100% 85%),\n        3px 6px 6px hsl(32deg 100% 85%);\n    background-color: #fafafa !important;\n}\n\n/*Breadcrumb*/\n.site-breadcrumb {\n    font-size: 0.8em;\n}\n\n/*Review Masonry*/\n.review-masonry {\n    -webkit-columns: 1;\n    -moz-columns: 1;\n    columns: 1;\n    -webkit-column-gap: 20px;\n    -moz-column-gap: 20px;\n    column-gap: 20px;\n}\n\n@media (min-width: 782px) {\n    .review-masonry {\n        -webkit-columns: 2;\n        -moz-columns: 2;\n        columns: 2;\n    }\n}\n\n.review-masonry .item {\n    -webkit-column-break-inside: avoid;\n    -moz-column-break-inside: avoid;\n    break-inside: avoid-column;\n}",
-    "elements": {
-      "button": {
-        "color": {
-          "background": "var(--wp--preset--color--custom-accent-1)",
-          "text": "var(--wp--preset--color--white)"
-        },
-        "typography": {
-          "fontFamily": "var(--wp--preset--font-family--system-font)"
-        }
-      },
-      "caption": {
-        "color": {
-          "text": "var(--wp--preset--color--custom-base-1)"
-        },
-        "typography": {
-          "fontFamily": "var(--wp--preset--font-family--system-font)"
-        }
-      },
-      "h1": {
-        "typography": {
-          "fontSize": "var(--wp--preset--font-size--large)"
-        }
-      },
-      "h2": {
-        "typography": {
-          "fontSize": "clamp(1.425rem, 1.133rem + 0.778vw, 1.6rem)"
-        }
-      },
-	  "h3": {
-        "typography": {
-          "fontSize": "clamp(1.125rem, 1rem + 0.333vw, 1.2rem)"
-        }
-      },
-      "heading": {
-        "color": {
-          "text": "var(--wp--preset--color--custom-accent-1)"
-        },
-        "typography": {
-          "fontStyle": "normal",
-          "fontWeight": "900",
-          "textTransform": "uppercase"
-        }
-      },
-      "link": {
-        ":hover": {
-          "color": {
-            "text": "var(--wp--preset--color--custom-accent-2)"
-          }
-        },
-        "color": {
-          "text": "var(--wp--preset--color--custom-accent-1)"
-        },
-        "typography": {
-          "fontFamily": "var(--wp--preset--font-family--system-font)"
-        }
-      }
-    },
-    "spacing": {
-      "blockGap": "20px",
-      "padding": {
-        "bottom": "0px",
-        "left": "20px",
-        "right": "20px",
-        "top": "0px"
-      }
-    },
-    "typography": {
-      "fontFamily": "var(--wp--preset--font-family--system-font)"
-    }
-  },
-  "templateParts": [
-    {
-      "area": "header",
-      "name": "header"
-    },
-    {
-      "area": "footer",
-      "name": "footer"
-    }
-  ],
-  "version": 2,
-  "$schema": "https://schemas.wp.org/wp/6.4/theme.json"
+	"settings": {
+		"appearanceTools": true,
+		"blocks": {
+			"core/button": {
+				"appearanceTools": true,
+				"color": {
+					"background": true,
+					"custom": true,
+					"customDuotone": true,
+					"customGradient": true,
+					"defaultDuotone": true,
+					"defaultGradients": true,
+					"defaultPalette": true,
+					"duotone": [],
+					"gradients": [],
+					"palette": [
+						{
+							"color": "#0A0903",
+							"name": "Base 1",
+							"slug": "custom-base-1"
+						},
+						{
+							"color": "#fcf1d3",
+							"name": "Base 2",
+							"slug": "custom-base-2"
+						},
+						{
+							"color": "#a84410",
+							"name": "Accent 1",
+							"slug": "custom-accent-1"
+						},
+						{
+							"color": "#f1892d",
+							"name": "Accent 2",
+							"slug": "custom-accent-2"
+						},
+						{
+							"color": "#ffdcb5",
+							"name": "Accent 3",
+							"slug": "custom-accent-3"
+						},
+						{
+							"color": "#51E5FF",
+							"name": "Accent 4",
+							"slug": "custom-accent-4"
+						}
+					],
+					"text": true
+				},
+				"layout": {
+					"contentSize": false,
+					"wideSize": false
+				},
+				"spacing": {
+					"customSpacingSize": true,
+					"spacingScale": {
+						"increment": 1.5,
+						"mediumStep": 1.5,
+						"operator": "*",
+						"steps": 7,
+						"unit": "rem"
+					},
+					"spacingSizes": [],
+					"units": [
+						"%",
+						"px",
+						"em",
+						"rem",
+						"vh",
+						"vw"
+					]
+				},
+				"typography": {
+					"dropCap": true,
+					"fontStyle": true,
+					"fontWeight": true,
+					"letterSpacing": true,
+					"textDecoration": true,
+					"textTransform": true
+				},
+				"useRootPaddingAwareAlignments": true
+			},
+			"core/code": {
+				"appearanceTools": true,
+				"color": {
+					"background": true,
+					"custom": true,
+					"customDuotone": true,
+					"customGradient": true,
+					"defaultDuotone": true,
+					"defaultGradients": true,
+					"defaultPalette": true,
+					"duotone": [],
+					"gradients": [],
+					"palette": [
+						{
+							"color": "#0A0903",
+							"name": "Base 1",
+							"slug": "custom-base-1"
+						},
+						{
+							"color": "#fcf1d3",
+							"name": "Base 2",
+							"slug": "custom-base-2"
+						},
+						{
+							"color": "#a84410",
+							"name": "Accent 1",
+							"slug": "custom-accent-1"
+						},
+						{
+							"color": "#f1892d",
+							"name": "Accent 2",
+							"slug": "custom-accent-2"
+						},
+						{
+							"color": "#ffdcb5",
+							"name": "Accent 3",
+							"slug": "custom-accent-3"
+						},
+						{
+							"color": "#51E5FF",
+							"name": "Accent 4",
+							"slug": "custom-accent-4"
+						}
+					],
+					"text": true
+				},
+				"layout": {
+					"contentSize": false,
+					"wideSize": false
+				},
+				"shadow": {
+					"defaultPresets": true,
+					"presets": []
+				},
+				"spacing": {
+					"customSpacingSize": true,
+					"spacingScale": {
+						"increment": 1.5,
+						"mediumStep": 1.5,
+						"operator": "*",
+						"steps": 7,
+						"unit": "rem"
+					},
+					"spacingSizes": [],
+					"units": [
+						"%",
+						"px",
+						"em",
+						"rem",
+						"vh",
+						"vw"
+					]
+				},
+				"typography": {
+					"dropCap": true,
+					"fontStyle": true,
+					"fontWeight": true,
+					"letterSpacing": true,
+					"textDecoration": true,
+					"textTransform": true
+				},
+				"useRootPaddingAwareAlignments": true
+			},
+			"core/list": {
+				"border": {
+					"color": true,
+					"radius": true,
+					"style": true,
+					"width": true
+				},
+				"color": {
+					"background": true,
+					"button": true,
+					"caption": true,
+					"custom": true,
+					"customDuotone": true,
+					"customGradient": true,
+					"defaultDuotone": true,
+					"defaultGradients": true,
+					"defaultPalette": true,
+					"duotone": [],
+					"gradients": [
+						{
+							"color": "#000",
+							"gradient": "linear-gradient(135deg,rgb(41,51,155) 0%,rgb(196,171,69) 100%)",
+							"name": "Couleur 1",
+							"slug": "custom-couleur-1"
+						}
+					],
+					"heading": true,
+					"link": true,
+					"palette": [
+						{
+							"color": "#492815",
+							"name": "Base 1",
+							"slug": "custom-base-1"
+						},
+						{
+							"color": "#fcf1d3",
+							"name": "Base 2",
+							"slug": "custom-base-2"
+						},
+						{
+							"color": "#a84410",
+							"name": "Accent 1",
+							"slug": "custom-accent-1"
+						},
+						{
+							"color": "#f1892d",
+							"name": "Accent 2",
+							"slug": "custom-accent-2"
+						},
+						{
+							"color": "#ffdcb5",
+							"name": "Accent 3",
+							"slug": "custom-accent-3"
+						},
+						{
+							"color": "#51E5FF",
+							"name": "Accent 4",
+							"slug": "custom-accent-4"
+						}
+					],
+					"text": true
+				},
+				"dimensions": {
+					"minHeight": true
+				},
+				"layout": {
+					"contentSize": false,
+					"wideSize": false
+				},
+				"position": {
+					"sticky": true
+				},
+				"shadow": {
+					"defaultPresets": true,
+					"presets": []
+				},
+				"spacing": {
+					"blockGap": true,
+					"customSpacingSize": true,
+					"margin": true,
+					"padding": true,
+					"spacingScale": {
+						"increment": 1.5,
+						"mediumStep": 1.5,
+						"operator": "*",
+						"steps": 7,
+						"unit": "rem"
+					},
+					"spacingSizes": [],
+					"units": [
+						"%",
+						"px",
+						"em",
+						"rem",
+						"vh",
+						"vw"
+					]
+				},
+				"typography": {
+					"customFontSize": true,
+					"dropCap": true,
+					"fontStyle": true,
+					"fontWeight": true,
+					"letterSpacing": true,
+					"lineHeight": true,
+					"textDecoration": true,
+					"textTransform": true
+				},
+				"useRootPaddingAwareAlignments": true
+			}
+		},
+		"color": {
+			"background": true,
+			"custom": true,
+			"customDuotone": true,
+			"customGradient": true,
+			"defaultDuotone": true,
+			"defaultGradients": true,
+			"defaultPalette": true,
+			"duotone": [],
+			"gradients": [
+				{
+					"color": "#000",
+					"gradient": "linear-gradient(135deg,rgb(41,51,155) 0%,rgb(196,171,69) 100%)",
+					"name": "Couleur 1",
+					"slug": "custom-couleur-1"
+				}
+			],
+			"palette": [
+				{
+					"color": "#492815",
+					"name": "Base 1",
+					"slug": "custom-base-1"
+				},
+				{
+					"color": "#fcf1d3",
+					"name": "Base 2",
+					"slug": "custom-base-2"
+				},
+				{
+					"color": "#a84410",
+					"name": "Accent 1",
+					"slug": "custom-accent-1"
+				},
+				{
+					"color": "#f1892d",
+					"name": "Accent 2",
+					"slug": "custom-accent-2"
+				},
+				{
+					"color": "#ffdcb5",
+					"name": "Accent 3",
+					"slug": "custom-accent-3"
+				},
+				{
+					"color": "#51E5FF",
+					"name": "Accent 4",
+					"slug": "custom-accent-4"
+				}
+			],
+			"text": true
+		},
+		"layout": {
+			"contentSize": "960px",
+			"wideSize": "1000px"
+		},
+		"spacing": {
+			"customSpacingSize": true,
+			"spacingScale": {
+				"increment": 1.5,
+				"mediumStep": 1.5,
+				"operator": "*",
+				"steps": 7,
+				"unit": "rem"
+			},
+			"spacingSizes": [],
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
+		},
+		"typography": {
+			"dropCap": true,
+			"fluid": true,
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+					"name": "System Font",
+					"slug": "system-font"
+				}
+			],
+			"fontSizes": [
+				{
+					"fluid": {
+						"max": "1rem",
+						"min": "0.8rem"
+					},
+					"name": "Small",
+					"size": "1rem",
+					"slug": "small"
+				},
+				{
+					"fluid": {
+						"max": "1.25rem",
+						"min": "1.15rem"
+					},
+					"name": "Medium",
+					"size": "1.25rem",
+					"slug": "medium"
+				},
+				{
+					"fluid": {
+						"max": "2.25rem",
+						"min": "1.9rem"
+					},
+					"name": "Large",
+					"size": "2.25rem",
+					"slug": "large"
+				},
+				{
+					"fluid": {
+						"max": "2.625rem",
+						"min": "2rem"
+					},
+					"name": "Extra large",
+					"size": "2.625rem",
+					"slug": "x-large"
+				}
+			],
+			"fontStyle": true,
+			"fontWeight": true,
+			"letterSpacing": true,
+			"textDecoration": true,
+			"textTransform": true
+		},
+		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"blocks": {
+			"core/button": {
+				"border": {
+					"bottom": {
+						"color": "#f1892d",
+						"style": "solid",
+						"width": "2px"
+					},
+					"color": null,
+					"left": {
+						"color": "#a84410",
+						"style": "solid",
+						"width": "2px"
+					},
+					"radius": "0px",
+					"right": {
+						"color": "#f1892d",
+						"style": "solid",
+						"width": "2px"
+					},
+					"style": null,
+					"top": {
+						"color": "#a84410",
+						"style": "solid",
+						"width": "2px"
+					},
+					"width": null
+				},
+				"color": {
+					"gradient": "linear-gradient(135deg,rgb(168,68,16) 0%,rgb(241,137,45) 100%)",
+					"text": "#ffffff"
+				},
+				"css": "box-shadow: 1px 2px 2px hsl(32deg 100% 85%), 2px 4px 4px hsl(32deg 100% 85%), 3px 6px 6px hsl(32deg 100% 85%);",
+				"spacing": {
+					"padding": {
+						"bottom": "5px",
+						"left": "10px",
+						"right": "10px",
+						"top": "5px"
+					}
+				},
+				"typography": {
+					"fontStyle": "normal",
+					"fontWeight": "700",
+					"lineHeight": "1.2",
+					"textTransform": "uppercase"
+				},
+				"variations": {
+					"outline": {
+						"border": {
+							"bottom": {
+								"color": "#a84410",
+								"style": "solid",
+								"width": "2px"
+							},
+							"left": {
+								"color": "#a84410",
+								"style": "solid",
+								"width": "2px"
+							},
+							"right": {
+								"color": "#a84410",
+								"style": "solid",
+								"width": "2px"
+							},
+							"top": {
+								"color": "#a84410",
+								"style": "solid",
+								"width": "2px"
+							}
+						},
+						"color": {
+							"text": "#a84410"
+						},
+						"css": "box-shadow: none !important;",
+						"spacing": {
+							"padding": {
+								"bottom": "5px",
+								"left": "10px",
+								"right": "10px",
+								"top": "5px"
+							}
+						},
+						"typography": {
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"lineHeight": "1.2"
+						}
+					}
+				}
+			},
+			"core/code": {
+				"border": {
+					"bottom": {
+						"color": "#0A0903",
+						"style": "solid",
+						"width": "2px"
+					},
+					"color": null,
+					"left": {
+						"color": "#0A0903",
+						"style": "solid",
+						"width": "2px"
+					},
+					"radius": "0px",
+					"right": {
+						"color": "#0A0903",
+						"style": "solid",
+						"width": "2px"
+					},
+					"style": null,
+					"top": {
+						"color": "#0A0903",
+						"style": "solid",
+						"width": "2px"
+					},
+					"width": null
+				},
+				"color": {
+					"background": "var(--wp--preset--color--custom-base-1)",
+					"text": "var(--wp--preset--color--custom-accent-3)"
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "20px",
+						"left": "40px",
+						"right": "40px",
+						"top": "20px"
+					}
+				}
+			},
+			"core/list": {
+				"spacing": {
+					"margin": {
+						"bottom": "20px",
+						"left": "0px",
+						"right": "0px",
+						"top": "20px"
+					},
+					"padding": {
+						"bottom": "0px",
+						"left": "15px",
+						"top": "0px"
+					}
+				}
+			},
+			"core/list-item": {
+				"css": "margin-bottom: 10px"
+			},
+			"core/page-list": {
+				"css": "padding-left: 0;\ncolor: var(--wp--preset--color--custom-accent-1);\nlist-style: none;",
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--medium)",
+					"lineHeight": 1.6000000000000001
+				}
+			},
+			"core/post-content": {
+				"css": ""
+			},
+			"core/post-template": {
+				"css": ""
+			}
+		},
+		"color": {
+			"background": "var(--wp--preset--color--custom-base-2)",
+			"text": "var(--wp--preset--color--custom-base-1)"
+		},
+		"css": "/*Tools*/\n.relative {\n    position: relative;\n}\n\n.stretched-link-btn a::after,\n.stretched-link::after {\n    position: absolute;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0;\n    z-index: 1;\n    content: \"\";\n}\n\n.shadow-sm {\n    -webkit-box-shadow: 0.5px 1px 1px hsl(32deg 100% 85% / 0.7);\n    box-shadow: 0.5px 1px 1px hsl(32deg 100% 85% / 0.7);\n    -webkit-transition: border ease-in-out 0.2s,\n        -webkit-box-shadow ease-in-out 0.2s;\n    transition: border ease-in-out 0.2s, -webkit-box-shadow ease-in-out 0.2s;\n    -o-transition: box-shadow ease-in-out 0.2s, border ease-in-out 0.2s;\n    transition: box-shadow ease-in-out 0.2s, border ease-in-out 0.2s;\n    transition: box-shadow ease-in-out 0.2s, border ease-in-out 0.2s,\n        -webkit-box-shadow ease-in-out 0.2s;\n}\n\n.shadow-md {\n    -webkit-box-shadow: 1px 2px 2px hsl(32deg 100% 85%),\n        2px 4px 4px hsl(32deg 100% 85%), 3px 6px 6px hsl(32deg 100% 85%);\n    box-shadow: 1px 2px 2px hsl(32deg 100% 85%), 2px 4px 4px hsl(32deg 100% 85%),\n        3px 6px 6px hsl(32deg 100% 85%);\n}\n\n.shadow-lg {\n    -webkit-box-shadow: 1px 2px 2px hsl(32deg 100% 85% / 0.2),\n        2px 4px 4px hsl(32deg 100% 85% / 0.2), 4px 8px 8px hsl(32deg 100% 85% / 0.2),\n        8px 16px 16px hsl(32deg 100% 85% / 0.2),\n        16px 32px 32px hsl(32deg 100% 85% / 0.2);\n    box-shadow: 1px 2px 2px hsl(32deg 100% 85% / 0.2),\n        2px 4px 4px hsl(32deg 100% 85% / 0.2), 4px 8px 8px hsl(32deg 100% 85% / 0.2),\n        8px 16px 16px hsl(32deg 100% 85% / 0.2),\n        16px 32px 32px hsl(32deg 100% 85% / 0.2);\n}\n\n.drop-shadow-sm {\n    -webkit-filter: drop-shadow(0.5px 1px 1px hsl(32deg 100% 85%));\n    filter: drop-shadow(0.5px 1px 1px hsl(32deg 100% 85%));\n}\n\n.drop-shadow-md {\n    -webkit-filter: drop-shadow(1px 2px 3px hsl(32deg 100% 85% / 0.3)) drop-shadow(2px 4px 6px hsl(32deg 100% 85% / 0.3)) drop-shadow(4px 8px 12px hsl(32deg 100% 85% / 0.3));\n    filter: drop-shadow(1px 2px 3px hsl(32deg 100% 85% / 0.3)) drop-shadow(2px 4px 6px hsl(32deg 100% 85% / 0.3)) drop-shadow(4px 8px 12px hsl(32deg 100% 85% / 0.3));\n}\n\n.drop-shadow-lg {\n    -webkit-filter: drop-shadow(1px 2px 3px hsl(32deg 100% 85% / 0.3)) drop-shadow(2px 4px 6px hsl(32deg 100% 85% / 0.3)) drop-shadow(4px 8px 12px hsl(32deg 100% 85% / 0.3)) drop-shadow(8px 16px 16px hsl(32deg 100% 85% / 0.3)) drop-shadow(16px 32px 32px hsl(32deg 100% 85% / 0.3));\n    filter: drop-shadow(1px 2px 3px hsl(32deg 100% 85% / 0.3)) drop-shadow(2px 4px 6px hsl(32deg 100% 85% / 0.3)) drop-shadow(4px 8px 12px hsl(32deg 100% 85% / 0.3)) drop-shadow(8px 16px 16px hsl(32deg 100% 85% / 0.3)) drop-shadow(16px 32px 32px hsl(32deg 100% 85% / 0.3));\n}\n\n.text-right {\n    text-align: right;\n}\n\n@media (min-width: 782px) {\n    .text-right-md {\n        text-align: right;\n    }\n}\n\n.article-index {\n    -webkit-box-ordinal-group: 0;\n    -ms-flex-order: -1;\n    order: -1;\n}\n\n@media (min-width: 782px) {\n    .article-index {\n        -webkit-box-ordinal-group: unset;\n        -ms-flex-order: unset;\n        order: unset;\n    }\n}\n\n/*Header*/\n.logo-block {\n    cursor: pointer;\n}\n\n.logo-block:hover {\n    text-decoration: underline;\n}\n\nheader .custom-logo-link::after {\n    position: absolute;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0;\n    z-index: 1;\n    content: \"\";\n}\n\n@media (min-width: 782px) {\n    header .header-line {\n        -webkit-box-pack: justify !important;\n        -ms-flex-pack: justify !important;\n        justify-content: space-between !important;\n    }\n}\n\n/*Query Block*/\n.wp-block-query:not(main) .wp-block-post-template .wp-block-post {\n    position: relative;\n    padding: 10px 20px;\n    cursor: pointer;\n    border: 1px solid var(--wp--preset--color--custom-accent-3);\n    background-color: #fafafa;\n    -webkit-box-shadow: 0.5px 1px 1px hsl(32deg 100% 85% / 0.7);\n    box-shadow: 0.5px 1px 1px hsl(32deg 100% 85% / 0.7);\n    -webkit-transition: border ease-in-out 0.2s,\n        -webkit-box-shadow ease-in-out 0.2s;\n    transition: border ease-in-out 0.2s, -webkit-box-shadow ease-in-out 0.2s;\n    -o-transition: box-shadow ease-in-out 0.2s, border ease-in-out 0.2s;\n    transition: box-shadow ease-in-out 0.2s, border ease-in-out 0.2s;\n    transition: box-shadow ease-in-out 0.2s, border ease-in-out 0.2s,\n        -webkit-box-shadow ease-in-out 0.2s;\n}\n\n.wp-block-query:not(main) .wp-block-post-template .wp-block-post:hover {\n    border: 1px solid var(--wp--preset--color--custom-accent-3);\n    -webkit-box-shadow: 1px 2px 2px hsl(32deg 100% 85%),\n        2px 4px 4px hsl(32deg 100% 85%), 3px 6px 6px hsl(32deg 100% 85%);\n    box-shadow: 1px 2px 2px hsl(32deg 100% 85%), 2px 4px 4px hsl(32deg 100% 85%),\n        3px 6px 6px hsl(32deg 100% 85%);\n}\n\n.wp-block-query:not(main) .wp-block-post-template .wp-block-post .wp-block-post-excerpt__more-link::after {\n    position: absolute;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0;\n    z-index: 1;\n    content: \"\";\n}\n\n.wp-block-query:not(main) .wp-block-post-template .wp-block-post.format-link {\n    position: relative;\n    border-top-color: var(--wp--preset--color--custom-accent-1);\n    border-top-width: 2px;\n    border-right-color: var(--wp--preset--color--custom-accent-2);\n    border-right-width: 2px;\n    border-bottom-color: var(--wp--preset--color--custom-accent-2);\n    border-bottom-width: 2px;\n    border-left-color: var(--wp--preset--color--custom-accent-1);\n    border-left-width: 2px;\n    padding-top: 30px;\n}\n\n.wp-block-query:not(main) .wp-block-post-template .wp-block-post.format-link::before {\n    content: \"Article externe ↗️\";\n    display: block;\n    position: absolute;\n    top: 0;\n    left: 0;\n    padding: 4px 6px;\n    color: var(--wp--preset--color--custom-base-2);\n    font-size: 0.8rem;\n    background-color: var(--wp--preset--color--custom-accent-1);\n}\n\n/*Buttons*/\n.wp-block-button__link:hover {\n    background: -webkit-gradient(linear,\n            left top,\n            right top,\n            from(rgba(73, 40, 21, 1)),\n            to(rgba(168, 68, 16, 1)));\n    background: -o-linear-gradient(left,\n            rgba(73, 40, 21, 1) 0%,\n            rgba(168, 68, 16, 1) 100%);\n    background: linear-gradient(90deg,\n            rgba(73, 40, 21, 1) 0%,\n            rgba(168, 68, 16, 1) 100%);\n}\n\ninput[type=\"button\"],\ninput[type=\"reset\"],\ninput[type=\"submit\"] {\n    background: -o-linear-gradient(315deg,\n            rgb(168, 68, 16) 0%,\n            rgb(241, 137, 45) 100%);\n    background: linear-gradient(135deg,\n            rgb(168, 68, 16) 0%,\n            rgb(241, 137, 45) 100%);\n    border-radius: 0px;\n    border-top-color: #a84410;\n    border-top-width: 2px;\n    border-top-style: solid;\n    border-right-color: #f1892d;\n    border-right-width: 2px;\n    border-right-style: solid;\n    border-bottom-color: #f1892d;\n    border-bottom-width: 2px;\n    border-bottom-style: solid;\n    border-left-color: #a84410;\n    border-left-width: 2px;\n    border-left-style: solid;\n    color: #ffffff;\n    font-style: normal;\n    font-weight: 700;\n    line-height: 1.2;\n    padding-top: 5px;\n    padding-right: 10px;\n    padding-bottom: 5px;\n    padding-left: 10px;\n    text-transform: uppercase;\n    border-style: solid;\n    padding-top: 5px;\n    padding-right: 10px;\n    padding-bottom: 5px;\n    padding-left: 10px;\n}\n\nbutton:disabled,\ninput[type=\"button\"]:disabled,\ninput[type=\"reset\"]:disabled,\ninput[type=\"submit\"]:disabled {\n    opacity: 0.7;\n}\n\n/*About Cards*/\n\n.about-card {\n    cursor: pointer;\n    -webkit-transition: background-color ease-in-out 0.2s,\n        -webkit-box-shadow ease-in-out 0.2s;\n    transition: background-color ease-in-out 0.2s,\n        -webkit-box-shadow ease-in-out 0.2s;\n    -o-transition: box-shadow ease-in-out 0.2s, background-color ease-in-out 0.2s;\n    transition: box-shadow ease-in-out 0.2s, background-color ease-in-out 0.2s;\n    transition: box-shadow ease-in-out 0.2s, background-color ease-in-out 0.2s,\n        -webkit-box-shadow ease-in-out 0.2s;\n    -webkit-box-shadow: 0.5px 1px 1px hsl(32deg 100% 85% / 0.7);\n    box-shadow: 0.5px 1px 1px hsl(32deg 100% 85% / 0.7);\n    -webkit-transition: background ease-in-out 0.2s,\n        -webkit-box-shadow ease-in-out 0.2s;\n    transition: background ease-in-out 0.2s, -webkit-box-shadow ease-in-out 0.2s;\n    -o-transition: box-shadow ease-in-out 0.2s, background ease-in-out 0.2s;\n    transition: box-shadow ease-in-out 0.2s, background ease-in-out 0.2s;\n    transition: box-shadow ease-in-out 0.2s, background ease-in-out 0.2s,\n        -webkit-box-shadow ease-in-out 0.2s;\n}\n\n.about-card:hover {\n    -webkit-box-shadow: 1px 2px 2px hsl(32deg 100% 85%),\n        2px 4px 4px hsl(32deg 100% 85%), 3px 6px 6px hsl(32deg 100% 85%);\n    box-shadow: 1px 2px 2px hsl(32deg 100% 85%), 2px 4px 4px hsl(32deg 100% 85%),\n        3px 6px 6px hsl(32deg 100% 85%);\n    background-color: #fafafa !important;\n}\n\n/*Breadcrumb*/\n.site-breadcrumb {\n    font-size: 0.8em;\n}\n\n/*Review Masonry*/\n.review-masonry {\n    -webkit-columns: 1;\n    -moz-columns: 1;\n    columns: 1;\n    -webkit-column-gap: 20px;\n    -moz-column-gap: 20px;\n    column-gap: 20px;\n}\n\n@media (min-width: 782px) {\n    .review-masonry {\n        -webkit-columns: 2;\n        -moz-columns: 2;\n        columns: 2;\n    }\n}\n\n.review-masonry .item {\n    -webkit-column-break-inside: avoid;\n    -moz-column-break-inside: avoid;\n    break-inside: avoid-column;\n}",
+		"elements": {
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--custom-accent-1)",
+					"text": "var(--wp--preset--color--white)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-font)"
+				}
+			},
+			"caption": {
+				"color": {
+					"text": "var(--wp--preset--color--custom-base-1)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-font)"
+				}
+			},
+			"h1": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--large)"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "clamp(1.425rem, 1.133rem + 0.778vw, 1.6rem)"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontSize": "clamp(1.125rem, 1rem + 0.333vw, 1.2rem)"
+				}
+			},
+			"heading": {
+				"color": {
+					"text": "var(--wp--preset--color--custom-accent-1)"
+				},
+				"typography": {
+					"fontStyle": "normal",
+					"fontWeight": "900",
+					"textTransform": "uppercase"
+				}
+			},
+			"link": {
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--custom-accent-2)"
+					}
+				},
+				"color": {
+					"text": "var(--wp--preset--color--custom-accent-1)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-font)"
+				}
+			}
+		},
+		"spacing": {
+			"blockGap": "20px",
+			"padding": {
+				"bottom": "0px",
+				"left": "20px",
+				"right": "20px",
+				"top": "0px"
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--system-font)"
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header"
+		},
+		{
+			"area": "footer",
+			"name": "footer"
+		}
+	],
+	"version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.4/theme.json"
 }
