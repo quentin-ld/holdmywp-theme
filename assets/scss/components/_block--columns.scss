@@ -1,0 +1,11 @@
+@include media-breakpoint-down(lg) {
+    .wp-block-columns {
+        flex-wrap: wrap !important;
+    }
+}
+
+@include media-breakpoint-down(lg) {
+    .entry-content .wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column {
+        flex-basis: 100% !important;
+    }
+}

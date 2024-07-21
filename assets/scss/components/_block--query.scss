@@ -1,0 +1,49 @@
+/*Query Block*/
+.wp-block-query:not(main) .wp-block-post-template .wp-block-post {
+	border: 2px solid var(--wp--preset--color--custom-accent-1);
+	box-shadow: 0.5px 1px 1px hsla(32, 100%, 85%, 0.7);
+	cursor: pointer;
+	padding: 10px 20px;
+	position: relative;
+	transition: box-shadow ease-in-out 0.2s, border ease-in-out 0.2s;
+}
+
+.wp-block-query:not(main) .wp-block-post-template .wp-block-post:hover {
+	border: 2px solid var(--wp--preset--color--custom-accent-3);
+	box-shadow: 1px 2px 2px hsl(32, 100%, 85%), 2px 4px 4px hsl(32, 100%, 85%), 3px 6px 6px hsl(32, 100%, 85%);
+}
+
+.wp-block-query:not(main) .wp-block-post-template .wp-block-post .wp-block-post-excerpt__more-link::after {
+	bottom: 0;
+	content: "";
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.wp-block-query:not(main) .wp-block-post-template .wp-block-post.format-link {
+	border-bottom-color: var(--wp--preset--color--custom-accent-2);
+	border-bottom-width: 2px;
+	border-left-color: var(--wp--preset--color--custom-accent-1);
+	border-left-width: 2px;
+	border-right-color: var(--wp--preset--color--custom-accent-2);
+	border-right-width: 2px;
+	border-top-color: var(--wp--preset--color--custom-accent-1);
+	border-top-width: 2px;
+	padding-top: 30px;
+	position: relative;
+}
+
+.wp-block-query:not(main) .wp-block-post-template .wp-block-post.format-link::before {
+	background-color: var(--wp--preset--color--custom-accent-1);
+	color: var(--wp--preset--color--custom-base-2);
+	content: "Article externe ↗";
+	display: block;
+	font-size: 0.8rem;
+	left: 0;
+	padding: 4px 6px;
+	position: absolute;
+	top: 0;
+}

@@ -1,0 +1,60 @@
+/*Tools*/
+.relative {
+	position: relative;
+}
+
+.stretched-link-btn a::after,
+.stretched-link::after {
+	bottom: 0;
+	content: "";
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.shadow-sm {
+	box-shadow: 0.5px 1px 1px hsla(32, 100%, 85%, 0.7);
+	transition: box-shadow ease-in-out 0.2s, border ease-in-out 0.2s;
+}
+
+.shadow-md {
+	box-shadow: 1px 2px 2px hsla(32, 100%, 85%, 0.2), 2px 4px 4px hsla(32, 100%, 85%, 0.2), 3px 6px 6px hsla(32, 100%, 85%, 0.2);
+}
+
+.shadow-lg {
+	box-shadow: 1px 2px 2px hsla(32, 100%, 85%, 0.2), 2px 4px 4px hsla(32, 100%, 85%, 0.2), 4px 8px 8px hsla(32, 100%, 85%, 0.2), 8px 16px 16px hsla(32, 100%, 85%, 0.2), 16px 32px 32px hsla(32, 100%, 85%, 0.2);
+}
+
+.drop-shadow-sm {
+	filter: drop-shadow(0.5px 1px 1px hsla(32, 100%, 85%, 0.7));
+}
+
+.drop-shadow-md {
+	filter: drop-shadow(1px 2px 3px hsla(32, 100%, 85%, 0.3)) drop-shadow(2px 4px 6px hsla(32, 100%, 85%, 0.3)) drop-shadow(4px 8px 12px hsla(32, 100%, 85%, 0.3));
+}
+
+.drop-shadow-lg {
+	filter: drop-shadow(1px 2px 3px hsla(32, 100%, 85%, 0.3)) drop-shadow(2px 4px 6px hsla(32, 100%, 85%, 0.3)) drop-shadow(4px 8px 12px hsla(32, 100%, 85%, 0.3)) drop-shadow(8px 16px 16px hsla(32, 100%, 85%, 0.3)) drop-shadow(16px 32px 32px hsla(32, 100%, 85%, 0.3));
+}
+
+.text-right {
+	text-align: right;
+}
+
+@media (min-width: 782px) {
+	.text-right-md {
+		text-align: right;
+	}
+}
+
+.article-index {
+	order: -1;
+}
+
+@media (min-width: 782px) {
+	.article-index {
+		order: unset;
+	}
+}

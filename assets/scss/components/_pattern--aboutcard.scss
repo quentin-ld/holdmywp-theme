@@ -1,0 +1,12 @@
+/*About Cards*/
+
+.about-card {
+	box-shadow: 0.5px 1px 1px hsla(32, 100%, 85%, 0.7);
+	cursor: pointer;
+	transition: box-shadow ease-in-out 0.2s, background-color ease-in-out 0.2s;
+	transition: box-shadow ease-in-out 0.2s, background ease-in-out 0.2s;
+}
+
+.about-card:hover {
+	box-shadow: 1px 2px 2px hsl(32, 100%, 85%), 2px 4px 4px hsl(32, 100%, 85%), 3px 6px 6px hsl(32, 100%, 85%);
+}

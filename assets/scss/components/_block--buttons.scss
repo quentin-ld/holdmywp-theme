@@ -1,0 +1,45 @@
+/*Buttons*/
+.wp-block-button__link:hover {
+	background: linear-gradient(90deg, rgba(73, 40, 21, 1) 0%, rgba(168, 68, 16, 1) 100%);
+	color: #fcf1d3;
+}
+
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	background: linear-gradient(135deg, rgb(168, 68, 16) 0%, rgb(241, 137, 45) 100%);
+	border-bottom-color: #f1892d;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-left-color: #a84410;
+	border-left-style: solid;
+	border-left-width: 2px;
+	border-radius: 0px;
+	border-right-color: #f1892d;
+	border-right-style: solid;
+	border-right-width: 2px;
+	border-style: solid;
+	border-top-color: #a84410;
+	border-top-style: solid;
+	border-top-width: 2px;
+	color: #ffffff;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 1.2;
+	padding-bottom: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-top: 5px;
+	text-transform: uppercase;
+}
+
+button:disabled,
+input[type="button"]:disabled,
+input[type="reset"]:disabled,
+input[type="submit"]:disabled {
+	opacity: 0.7;
+}

@@ -1,0 +1,15 @@
+/*Review Masonry*/
+.review-masonry {
+	column-gap: 20px;
+	columns: 1;
+}
+
+@media (min-width: 782px) {
+	.review-masonry {
+		columns: 2;
+	}
+}
+
+.review-masonry .item {
+	break-inside: avoid-column;
+}

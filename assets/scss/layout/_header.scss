@@ -1,0 +1,24 @@
+/*Header*/
+.logo-block {
+	cursor: pointer;
+}
+
+.logo-block:hover {
+	text-decoration: underline;
+}
+
+header .custom-logo-link::after {
+	bottom: 0;
+	content: "";
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+
+@media (min-width: 782px) {
+	header .header-line {
+		justify-content: space-between !important;
+	}
+}
