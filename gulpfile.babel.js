@@ -66,6 +66,7 @@ const zip = require('gulp-zip'); // Zip plugin or theme file.
 const postcss = require('gulp-postcss');
 const postcssScss = require('postcss-scss');
 const cssDeclarationSorter = require('css-declaration-sorter');
+const { exec } = require('child_process');
 
 /**
  * Custom Error Handler.
@@ -410,9 +411,18 @@ gulp.task('translate', () => {
  * zipDestination: Must be a folder outside of the zip folder.
  * zipName: theme.zip or plugin.zip
  */
-gulp.task('zip', () => {
-	const src = [...config.zipIncludeGlob, ...config.zipIgnoreGlob];
-	return gulp.src(src).pipe(zip(config.zipName)).pipe(gulp.dest(config.zipDestination));
+gulp.task('zip', (done) => {
+    const zipCommand = `zip -r ${config.projectName}-temp.zip . -x "*.git*" ".gitignore" "node_modules/*" ".editorconfig" ".eslintignore" ".eslintrc*" "gulpfile.babel.js" "wpgulp.config.js" ".vscode/*" "wpgulp.config.js" "package-lock.json" "package.json" "*.zip" "*.tar.gz" && mkdir ${config.projectName} && unzip ${config.projectName}-temp.zip -d ${config.projectName} && zip -r ${config.projectName}.zip ${config.projectName} && rm -rf ${config.projectName} ${config.projectName}-temp.zip`;
+
+    exec(zipCommand, (error, stdout, stderr) => {
+        if (error) {
+            console.error(`Erreur d'exécution: ${error}`);
+            return done(error);
+        }
+        console.log(`Sortie: ${stdout}`);
+        console.error(`Erreurs: ${stderr}`);
+        done();
+    });
 });
 
 /**

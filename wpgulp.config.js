@@ -12,6 +12,7 @@
 // Local project URL of your already running WordPress site.
 // > Could be something like "wpgulp.local" or "localhost"
 // > depending upon your local WordPress setup.
+const projectName = 'holdmywp';
 const projectURL = 'holdmywp.local';
 
 // Theme/Plugin URL. Leave it like it is; since our gulpfile.js lives in the root folder.
@@ -137,6 +138,7 @@ const BROWSERS_LIST = ['last 2 version', '> 1%'];
 
 // Export.
 module.exports = {
+	projectName,
 	projectURL,
 	productURL,
 	browserAutoOpen,
