@@ -1,6 +1,6 @@
 @include media-breakpoint-down(lg) {
     .wp-block-columns {
-        flex-wrap: wrap;
+        flex-wrap: wrap !important;
     }
 }
 
